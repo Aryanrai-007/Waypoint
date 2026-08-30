@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { createClient } from '../../lib/supabase/client'
 import { Sparkles, ArrowRight } from 'lucide-react'
+import './login.css'
 
 export default function LoginPage() {
   const [loading, setLoading] = useState(false)
